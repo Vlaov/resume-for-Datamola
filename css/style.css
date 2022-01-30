@@ -1,0 +1,81 @@
+.main_info {
+  background-color: #fff;
+}
+.logo {
+  border-radius: 50%;
+}
+.my_name {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #000;
+}
+.my_work {
+  color: #000;
+}
+.head__descr {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.logo {
+  margin-right: 100px;
+}
+.social__lnks {
+  padding-top: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+/* ABOUT */
+
+.about {
+  background-color: rgb(235, 233, 233);
+}
+.p_descr {
+  width: 600px;
+  font-family: 'Roboto';
+}
+.about_descr {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.head_list {
+  list-style-type: none;
+}
+.list {
+  list-style-type: none;
+}
+.info_about {
+  margin-top: 30px;
+  display: flex;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.info {
+  padding: 70px 0 70px 0;
+  background-color: #fff;
+}
+/* WHY*/
+.why {
+  padding: 70px 0 70px 0;
+  background-color: rgb(235, 233, 233);
+}
+.answer {
+  width: 400px;
+}
+@media (max-width: 480px) {
+  .head__descr {
+    display: block;
+    text-align: center;
+  }
+  .logo {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .social__lnks {
+    justify-content: center;
+  }
+  .link {
+    margin-right: 20px;
+  }
+}
